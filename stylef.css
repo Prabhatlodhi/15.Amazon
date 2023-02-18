@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+    /* background-color: rgb(250, 250, 250) */
+
+    
+}
+
+/* GENERAL CSS FOR ALL START HERE */
+.ring{
+    border: 1px solid red;
+}
+
+ 
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unorderedlist ul{
+    /* position: relative; */
+    /* right: 20px; */
+}
+
+.unorderedlist li{
+    display: inline-block;
+     
+}
+
+.unorderedlist a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    /* margin: auto 2px; */
+    /* padding: auto 5px; */
+}
+
+.unorderedlist ul li a:hover {
+    outline: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+
+
+/* GENERAL CSS FOR ALL START HERE */
+/* NAVIGATION BAR SECTION START FROM HERE */
+
+.logo img{
+    width: 90px;
+    margin-left: 5px;
+}
+
+.logo img:hover{
+     outline: 1px solid white;
+     border-radius: 3px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+.navbar{
+    width: 100%;
+    /* height: 60px; */
+    /* padding-bottom: 10px; */
+    background-color: black;
+    color: white;
+
+}
+
+.location{
+    position: relative;
+    top: 11px;
+    margin: 0px 3px;
+}
+
+.first_box{
+    position: relative;
+    right: 1%;
+    padding: 3px;
+}
+
+.first_box:hover{
+    outline: 1px solid white;
+    border-radius: 3px;
+}
+
+.mid_part_nav{
+    position: relative;
+    right: 1%;
+    width: 55%;
+}
+
+#categories{
+    width: 45px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    position: relative;
+    left: 5px;
+    padding: 2px;
+}
+
+.search_bar{
+    width: 80%;
+    height: 40px;
+    
+}
+
+.fa-search{
+    background-color: #febd69;
+    padding: 8.99px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    top: 0.5px;
+    right: 13px;
+    color: #232f3e;
+    /* height: 40px; */
+
+}
+
+#all_language{
+    width: 60px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+  
+}
+
+.nav_text{
+    position: relative;
+    right: 1%;
+    padding: 5px;
+    line-height: 19px;
+}
+
+.nav_text:hover{
+    outline: 1px solid white;
+    border-radius: 3px;
+}
+
+
+
+.nav_text .top_text{
+    font-size: 13px;
+}
+
+.nav_text .bottom_text{
+    /* font-size: 13px; */
+    font-weight: bold;
+}
+
+ 
+
+
+/* NAVIGATION BAR SECTION END FROM HERE */
+/* STRIP BELOW NAVIGATION BAR SECTION START FROM HERE */
+
+
+.strip{
+    background-color: #232f3e;
+    margin-top: 70px;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+.strip ul li a:hover{
+    outline: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+.unorderedlist{
+    margin-top: 10px;
+}
+
+.last_text a {
+    text-decoration: none;
+    color: white;
+}
+
+.last_text a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.last_text:hover{
+    color: white;
+    outline: 1px solid white;
+     
+}
+
+
+.last_text{
+    position: relative;
+    right: 35px;
+    border-radius: 3px;
+    color: white;
+}
+
+ 
+
+.last_text_one{
+    font-weight: bold;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.last_text_two{
+    margin: 0 5px;
+}
+
+.bottom_last_text{
+    font-size: 10px;
+}
+
+ 
+
+
+/* STRIP BELOW NAVIGATION BAR SECTION END FROM HERE */
+
+.bigslides{
+    width: 100%;
+}
+
+ 
+
+
+/* ==========SMALL BLOCKS OF ADS STARTS FROM HERE================ */
+
+
+.bgbg{
+    width: 100%;
+    flex-wrap: wrap;
+    background-color:  rgb(240,240,240);
+    /* background: linear-gradient(top to bottom 240,240,240); */
+}
+.section_small_box{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    position: relative;
+    /* top: 320px; */
+    bottom:320px;
+    z-index: 1;
+    /* background-color: rgb(245, 245, 245,0.5); */
+
+}
+
+.wrapper{
+    width: 22vw;
+    /* height: 65vh; */
+    background-color: white;
+    box-shadow: 0px 0px 1px black;
+    margin: 25px auto;
+}
+
+.description{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0% 2.5%;
+    margin-top: 4%;
+    /* padding-top: 2%; */
+    /* border: 1px solid red; */
+    line-height: 35px;
+    /* border-bottom: 1px solid grey; */
+
+}
+
+.small_container{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+    /* margin: 1% 2.5%; */
+}
+
+.small_container img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.one_product{
+    width: 45%;
+    height: 60%;
+    /* padding: 10px; */
+    /* margin: 1px 5px; */
+    
+}
+
+.one_product p{
+    font-size: 14px;
+    margin-top: 5px;
+    /* color: black; */
+    /* margin: 2px 2px; */
+}
+
+.see_more{
+    margin: 2% 3.5%;
+    padding: 1% 0%;
+    
+    
+}
+
+.see_more a{
+    text-decoration: none;
+}
+
+
+
+
+/* ==========SMALL BLOCKS OF ADS END FROM HERE================ */
+/* SMALL SLIDER ALL CSS STARTS FROM HERE */
+
+
+.slider_top .todaydeal{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.slider_top a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.slider_product_offer .offerone{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 12px;
+    margin-left: 28px;
+}
+
+.slider_product_offer .offertwo{
+    font-size: 12px;
+    /* margin-left: 20px; */
+}
+
+
+
+.owl-carousel .itema{
+    /* width: 200px; */
+    /* height: 200px; */
+    /* margin: 10px; */
+    /* background-color: aqua; */
+}
+
+.owl-carousel {
+    width: 100%;
+    /* margin: 30px; */
+}
+
+.itema img{
+    width: 220px;
+    height: 200px;
+    margin: 10px;
+    /* padding: 10px; */
+    object-fit: contain;
+}
+
+ 
+
+.container{
+    display: block;
+    width: 100%;
+    /* padding: 1% 5%; */
+    /* margin: 5% */
+    margin: 2% 0.1%;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.big_image{
+    display: block;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 2%;
+}
+
+.one_product_single{
+    padding: 2.8%;
+}
+
+/* SIGN IN PORTION LAST */
+
+.sign_in{
+    width: 100%;
+    box-shadow: 0px 0px 4px grey;
+    text-align: center;
+    margin-top: 2%;
+    /* padding-top: 2%; */
+    padding: 2.5% 0%;
+    background-color: white;
+}
+
+.sign_in p{
+    font-size: 14px;
+}
+
+.sign_in button{
+    border: none;
+    padding: 7px;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #febd69;
+    position: relative;
+    bottom: 6px;
+
+}
+
+.btt {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #37475a;
+    color: white;
+    
+}
+
+.btt button{
+    background-color: #37475a;
+    color: white;
+    border: none;
+    
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    /* margin: 2% 0%; */
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    box-shadow: 0px 0px 1px grey;
+    
+
+}
+
+.one_details{
+    margin: 3% 2%;
+}
+
+.one_details ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.one_details ul li a:hover{
+     text-decoration: underline white;
+}
+
+footer ul{
+    font-weight: bol;
+    
+    
+}
+
+.secondlast{
+    /* margin: 1% auto; */
+    text-align: center;
+    background-color: #232f3e;
+    width: 100%;
+    border-top: 1px solid grey;
+    padding: 1.5% 0%;
+}
+
+.all_country {
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.all_country li{
+    display: inline-block;
+    margin: 5px 10px;
+    
+    
+}
+
+.all_country li :hover{
+    text-decoration: underline white;
+}
+
+.all_country ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.select_language{
+    border-color: #37475a;
+    border-radius: 4px;
+    background-color: #232f3e;
+    color: white;
+    
+}
+
+/* SMALL LETTERS SECTION STARTS HERE */
+.smallboxes{
+    width: 100%;
+    justify-content: start;
+    flex-wrap: wrap;
+    background-color: #131a22;
+}
+
+ 
+
+.top_small{
+    width: 100%;
+    margin-top: 50px;
+    /* justify-content: center; */
+}
+
+.bottom_small{
+    width: 100%;
+    position: relative;
+    right: 200px;
+    /* justify-content: center; */
+    margin-bottom: 50px;
+}
+
+ 
+
+.onesmall_block{
+    width: 200px;
+    /* width: 100%; */
+    /* text-align: start; */
+    /* margin-top: 20px; */
+    /* margin-right: 30px; */
+    /* margin: 10px 40px; */
+    line-height: 11px;
+    /* border: 1px solid red; */
+}
+
+.onesmall_block ul li a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    font-size: 10px;
+
+}
+
+.onesmall_block ul li  :hover{
+     text-decoration: underline white;
+}
+
+.first_heading{
+    font-weight: bold;
+}
+
+ 
+
+ 
+
+.last_link{
+    width: 100%;
+    text-align: center;
+}
+
+.last_link a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+.last_link a:hover{
+     text-decoration: underline white;
+     color: white;
+}
+ 
+
+
